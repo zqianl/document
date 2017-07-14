@@ -86,7 +86,7 @@
 	git push origin v0.1
 	git push origin --tags 
 
-### 删除远程tag：###
+### 删除远程tag： ###
 
 	git tag –d v0.9
 	git push origin :refs/tags/v0.9
@@ -114,8 +114,6 @@
 
 当前用户的Git配置文件放在用户主目录下的一个隐藏文件.gitconfig中
 
-
-### See your changes instantly with LivePreview ###
 
 在实际开发中，我们应该按照几个基本原则进行分支管理：
 首先，master分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活；
